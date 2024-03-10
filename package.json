@@ -1,0 +1,29 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.5.1",
+    "bootstrap": "^5.3.2",
+    "firebase": "^10.8.0",
+    "nuxt": "^3.10.1",
+    "nuxt-gsap": "^0.1.4",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.15",
+    "vue-router": "^4.2.5",
+    "vue3-carousel-nuxt": "^1.1.0",
+    "vue3-lottie": "^3.2.0"
+  },
+  "devDependencies": {
+    "@vueuse/core": "^10.7.2",
+    "@vueuse/nuxt": "^10.7.2",
+    "nuxt-bootstrap-icons": "^1.1.7"
+  }
+}
